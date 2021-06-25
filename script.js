@@ -24,7 +24,7 @@ function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
-// Event listeners
+// Event listeners - first version
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
